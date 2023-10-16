@@ -1,0 +1,41 @@
+* {
+    margin: 30;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(19, 120, 28);
+}
+p{
+    color : rgb(28, 78, 44);
+}
+h1{
+    color : rgb(36, 190, 90);
+    font-size : 60px;
+    font-family: Arial;
+    box-shadow: 0 0 10px 1px rgba(0, 80, 0, 2);
+}
+div {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(145, 216, 146, 0.419);
+    box-shadow: 2px 2px 2px 5px rgba(0, 80, 0, 2);
+}
+a {
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(141, 0, 160);
+    border-bottom: 1px solid transparent;
+    transition: 0.2s ease-in;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+a:hover {
+    border-bottom-color: rgb(0, 132, 255);
+}
